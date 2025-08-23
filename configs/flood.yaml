@@ -1,0 +1,26 @@
+dataset: flood
+suffix: .tif
+mode: detect # train, detect, train-detect
+batch_size: 8192
+patch_size: 3
+
+lr: 0.0001
+wd: 0.0005
+epoch: 5
+pre_epoch: 1
+
+n_clusters: 4
+lamda: 1
+beta: 1
+hidden_dims: [256, 128, 64]
+latent_dim: 32
+band_num: 4
+get_after_cluster: false
+with_log: false
+gamma: 2
+debug: ""
+exp_sub_folder: ""
+
+device: "cuda"
+
+resume: null

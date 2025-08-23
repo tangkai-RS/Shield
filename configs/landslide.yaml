@@ -1,0 +1,26 @@
+dataset: landslide
+suffix: .png
+mode: detect # train, detect, train-detect
+batch_size: 512
+patch_size: 9
+
+lr: 0.0001
+wd: 0.0005
+epoch: 10
+pre_epoch: 10
+
+n_clusters: 5
+lamda: 1
+beta: 1
+hidden_dims: [256, 128, 64]
+latent_dim: 32
+band_num: 3
+get_after_cluster: false
+with_log: false
+gamma: 2
+debug: ""
+exp_sub_folder: ""
+
+device: "cuda"
+
+resume: null
