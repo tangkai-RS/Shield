@@ -95,10 +95,6 @@ def train_model(args, model, Kmeans,
                 train_dataset, test_dataset):
     seed_torch()
 
-    nmi_list = []
-    ari_list = []
-    rec_loss_list = []
-
     model.train()
     rec_loss_list = model.pretrain(train_loader, epoch=args.pre_epoch)
 
@@ -118,7 +114,7 @@ def train_model(args, model, Kmeans,
                     'optimizer': model.optimizer.state_dict()},
                    os.path.join(args.exp, f'checkpoint_{e}.pth.tar'))
 
-    return rec_loss_list, nmi_list, ari_list
+    return rec_loss_list
 
 
 def detect_anomaly(args, model, Kmeans,
