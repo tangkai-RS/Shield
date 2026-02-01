@@ -1,4 +1,6 @@
-## [Unsupervised detection of disaster-affected areas by combining the strengths of change detection and anomaly detection: target for on-orbit application.](https://spj.science.org/doi/abs/10.34133/remotesensing.0929)
+## Unsupervised detection of disaster-affected areas by combining the strengths of change detection and anomaly detection: target for on-orbit application.
+
+[[Paper]](https://spj.science.org/doi/abs/10.34133/remotesensing.0929)
 
 ![](figs/main-idea.png)
 
