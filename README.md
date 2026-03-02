@@ -33,5 +33,14 @@ The [experiments](experiments) provides visualizations of trained checkpoints an
 ## Citation
 If you use the Shield codes, please cite our paper:
 ```bibtex
-Coming soon
+@article{tang2026Shield,
+  title = {Unsupervised Detection of Disaster-Affected Areas by Combining the Strengths of Change Detection and Anomaly Detection: Target for On-Orbit Application},
+  journal = {Journal of Remote Sensing},
+  author = {Tang, Kai and Wang, Qiao and Xu, Fei and Gu, Zhuoning and Chen, Xuehong and Chen, Jin},
+  year = {2026},
+  volume = {6},
+  ISSN = {2694-1589},
+  DOI = {10.34133/remotesensing.0929},
+  pages = {0929}
+}
 ```
